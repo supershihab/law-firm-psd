@@ -1,0 +1,215 @@
+/* GENERAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.title{
+    width: 100%;
+}
+
+.title h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #28377E;
+}
+
+.title img{
+    margin-bottom: 15px;
+}
+
+
+/* HEADER CSS */
+.header-section{
+    width: 100%;
+}
+
+.header-section .bg-light {
+    background-color: #fff!important;
+}
+
+.navbar-nav li a{
+    text-transform: uppercase;
+    color: red;
+} 
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #28377E;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover,
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+    color: #E6643F;
+}
+
+
+/* SLIDER SECTION */
+.slider-section{
+    width: 100%;
+    padding: 200px 0px 40px;
+    background: url('assets/bg-hero.png') center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.slider-section h1{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #fff;
+} 
+
+.slider-section .arrow{
+    width: 100%;
+    padding: 150px 0px 0px;
+}
+
+/* WHO-WE-ARE SECTION */
+.who-we-are-section{
+    width: 100;
+    padding: 80px 0px;
+}
+
+.who-we-are-section .title{
+    margin: 40px 0px 0px;
+}
+
+.who-we-are-section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #BDBDBD;
+}
+
+.who-we-are-section .who-we-are-img{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* WHAT-WE-DO SECTION */
+.what-we-do{
+    width: 100%;
+    padding: 100px 0px;
+    background: url('assets/bg-what-we-do.png') right center no-repeat;
+    background-size: cover;
+}
+
+.what-we-do .title{
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+
+.what-we-do .card{
+    margin-bottom: 25px;
+}
+
+.what-we-do .card .card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    border: none;
+
+}
+
+.what-we-do .card .card-body h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.what-we-do .card .card-body img{
+    /* padding: 130px 0px 10px; */
+    position: absolute;
+    top: 180%;
+    left: 45%;
+    width: auto;
+}
+
+/* OUR-ATTORNEYS SECTION */
+.our-attorneys{
+    width: 100%;
+    padding: 120px 0px;
+    background: url('assets/bg-attorneys.png') right center no-repeat;
+    background-size: cover;
+}
+
+.our-attorneys .title{
+    width: 100%;
+    margin: 100px 0px 0px;
+}
+
+.our-attorneys h2{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #fff;
+} 
+
+.our-attorneys p{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.our-attorneys a{
+    color: #E6643F;
+    font-weight: 600;
+}
+
+.our-attorneys .card{
+    margin-bottom: 25px;
+}
+
+.our-attorneys .card .card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    border: none;
+
+}
+
+.our-attorneys .card .card-body h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.our-attorneys .card .card-body img{
+    /* padding: 130px 0px 10px; */
+    position: absolute;
+    top: 180%;
+    left: 45%;
+    width: auto;
+}
