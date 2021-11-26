@@ -1,91 +1,307 @@
+/* GENERAL CSS */
 *{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-/* NAV SECTION */
-.nav{
-    background-color: #ececec;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.nav nav{
-    width: 1100px;
-    margin-left: 600px;
-    padding: 5px;
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
 }
 
-.nav ul{
-    list-style: none;
-
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
 }
 
-.nav ul li{
-    display: inline-block;
-    font-size: 12px;
-    padding-left: 20px;
-
-}
-
-.nav ul li a {
+a, a:hover{
     text-decoration: none;
-    color: black;
 }
 
-/* HEADER SECTION */
-
-.header{
-    margin: 10px;
-    margin-left: auto;
-    margin-right:auto;
-    width: 1180px;
-    height: 50px;
-    display: flex;
+.title{
+    width: 100%;
 }
 
-.header .search-bar{
-    width: 600px;
-    height: 20px;
-    padding: 10px;
-    margin: 10px 5px 0px 20px;
-    background-color: #ececec;
+.title h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #28377E;
 }
 
-.header .icon{
-    height: 20px;
-    padding: 10px;
-    margin: 10px 0px 0px 20px;
-    background-color: white;
+.title img{
+    margin-bottom: 15px;
 }
 
-/* BANNER SECTION */
 
-.banner{
-    display: flex;
+/* HEADER CSS */
+.header-section{
+    width: 100%;
+}
+
+.header-section .bg-light {
+    background-color: #fff!important;
+}
+
+.navbar-nav li a{
+    text-transform: uppercase;
+    color: red;
+} 
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #28377E;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover,
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+    color: #E6643F;
+}
+
+
+/* SLIDER SECTION */
+.slider-section{
+    width: 100%;
+    padding: 200px 0px 40px;
+    background: url('assets/bg-hero.png') center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.slider-section h1{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #fff;
+} 
+
+.slider-section .arrow{
+    width: 100%;
+    padding: 150px 0px 0px;
+}
+
+/* WHO-WE-ARE SECTION */
+.who-we-are-section{
     width: 100;
-    background-color: #3f3fdb;
+    padding: 80px 0px;
 }
 
-.banner-body{
-    background-color: white;
-    margin-left: 260px;
-    line-height: 25px;
+.who-we-are-section .title{
+    margin: 40px 0px 0px;
+}
+
+.who-we-are-section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #BDBDBD;
+}
+
+.who-we-are-section .who-we-are-img{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* WHAT-WE-DO SECTION */
+.what-we-do{
+    width: 100%;
+    padding: 100px 0px;
+    background: url('assets/bg-what-we-do.png') right center no-repeat;
+    background-size: cover;
+}
+
+.what-we-do .title{
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+
+.what-we-do .card{
+    margin-bottom: 25px;
+}
+
+.what-we-do .card .card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    border: none;
+
+}
+
+.what-we-do .card .card-body h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.what-we-do .card .card-body img{
+    /* padding: 130px 0px 10px; */
+    position: absolute;
+    top: 180%;
+    left: 45%;
+    width: auto;
+}
+
+/* OUR-ATTORNEYS SECTION */
+.our-attorneys{
+    width: 100%;
+    padding: 120px 0px;
+    background: url('assets/bg-attorneys.png') right center no-repeat;
+    background-size: cover;
+}
+
+.our-attorneys .title{
+    width: 100%;
+    margin: 100px 0px 0px;
+}
+
+.our-attorneys h2{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #fff;
+} 
+
+.our-attorneys p{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.our-attorneys a{
+    color: #E6643F;
+    font-weight: 600;
+}
+
+.our-attorneys .card{
+    margin-bottom: 25px;
+}
+
+.our-attorneys .card .card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    border: none;
+
+}
+
+.our-attorneys .card .card-body h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.our-attorneys .card .card-body img{
+    /* padding: 130px 0px 10px; */
+    position: absolute;
+    top: 180%;
+    left: 45%;
+    width: auto;
+}
+
+
+
+/* THE-LANGUAGES SECTION */
+.the-languages{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.the-languages .title{
+    text-align: center;
+    padding: 0px 0px 50px;
+    margin-bottom: 30px;
+}
+
+.the-languages h3{
+    color: #28377E;
+    font-weight: 700;
+}
+
+.the-languages p{
+    color: #BDBDBD;
+}
+
+.the-languages a{
+    color: #E6643F;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* CONTACT-US SECTION */
+.contact-us{
+    width: 100%;
+    padding: 80px 0px;
+    background: #28377E;
+}
+
+.contact-us .title{
+    text-align: center;
+    padding: 0px 0px 50px;
+    margin-bottom: 30px;
     
 }
 
-.banner-body ul{
-    padding: 5px 20px 0px 5px;
+.contact-us .title h2{
+    color: #fff;
 }
 
-
-.banner-body ul li{
-    list-style: none;
+.contact-us .input-group{
+    margin-bottom: 30px;
 }
 
-.banner-body ul li a{
-    text-decoration: none;
-    color: grey;
+.contact-us input{
+     background-color:rgba(0,0,0,0) !important;
+     border:none !important;
+     color: #fff;
+}
+
+.contact-us input::placeholder{
+    color: #fff;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #E6643F;
     font-size: 14px;
+    font-weight: 600;
+    padding: 10px 90px;
+    border-radius: 0%;
 }
 
-.banner-img{
-    width: 900px;
+
+/* FOOTER SECTION */
+.footer-section{
+    width: 100%;
+    background-color: #0C1234;
+    padding: 30px 0px;
+}
+
+.footer-section p{
+    color: #555E93
+}
+
+.footer-section span img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
 }
